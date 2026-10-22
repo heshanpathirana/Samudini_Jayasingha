@@ -39,7 +39,7 @@ window.PORTFOLIO_DATA = {
     portraitAlt: "Academic profile portrait of science undergraduate at University of Sri Jayewardenepura",
 
     // Path to the genuine curriculum vitae PDF
-    cvPath: "assets/docs/cv.pdf",
+    cvPath: "assets/docs/Samudini_Jayasingha_CV.pdf",
     cvFilename: "Curriculum_Vitae_USJ_Undergraduate.pdf",
 
     // Hero Section Content
@@ -50,7 +50,7 @@ window.PORTFOLIO_DATA = {
       primaryCtaText: "Explore My Journey",
       primaryCtaTarget: "#pharmacy-journey",
       secondaryCtaText: "Download My CV",
-      secondaryCtaTarget: "assets/docs/cv.pdf"
+      secondaryCtaTarget: "assets/docs/Samudini_Jayasingha_CV.pdf"
     }
   },
 
@@ -404,7 +404,7 @@ window.PORTFOLIO_DATA = {
     heading: "A Closer Look at My Background",
     supportingText: "Explore my academic background, scientific skills, and professional interests in my CV.",
     buttonText: "Download CV (PDF)",
-    cvPath: "assets/docs/cv.pdf",
+    cvPath: "assets/docs/Samudini_Jayasingha_CV.pdf",
     note: "Academic Resume / Curriculum Vitae document (PDF format)."
   },
 
