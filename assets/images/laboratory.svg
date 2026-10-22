@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgLab" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08182D"/>
+      <stop offset="100%" stop-color="#0B2B3E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bgLab)"/>
+  
+  <!-- Bench top line -->
+  <rect x="0" y="340" width="800" height="160" fill="#071324"/>
+  <line x1="0" y1="340" x2="800" y2="340" stroke="#0D9488" stroke-width="3"/>
+
+  <!-- Analytical Balance -->
+  <g transform="translate(180, 240)">
+    <rect x="-60" y="50" width="120" height="50" rx="4" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <rect x="-50" y="65" width="40" height="20" rx="2" fill="#0F172A"/>
+    <text x="-30" y="80" font-family="monospace" font-size="11" fill="#34D399" text-anchor="middle">0.000 g</text>
+    <rect x="-55" y="-30" width="110" height="80" rx="4" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="2 2"/>
+    <rect x="-25" y="45" width="50" height="6" fill="#CBD5E1"/>
+  </g>
+
+  <!-- Volumetric Glassware and Stand -->
+  <g transform="translate(420, 160)">
+    <rect x="50" y="160" width="100" height="20" rx="3" fill="#1E293B"/>
+    <line x1="60" y1="160" x2="60" y2="-40" stroke="#94A3B8" stroke-width="4"/>
+    <!-- Clamp -->
+    <rect x="58" y="20" width="30" height="8" rx="2" fill="#475569"/>
+    <!-- Burette -->
+    <line x1="88" y1="-20" x2="88" y2="120" stroke="#38BDF8" stroke-width="5" opacity="0.8"/>
+    <ellipse cx="88" cy="140" rx="20" ry="12" fill="#0D9488" opacity="0.6"/>
+  </g>
+
+  <!-- Lab Notebook -->
+  <g transform="translate(620, 310) rotate(-6)">
+    <rect x="-60" y="-30" width="120" height="60" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="-50" y1="-15" x2="40" y2="-15" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="-50" y1="-5" x2="30" y2="-5" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="-50" y1="5" x2="45" y2="5" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="-50" y1="15" x2="10" y2="15" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(48, 430)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#10B981" letter-spacing="1.5">UNIVERSITY LABORATORY ENVIRONMENT</text>
+    <text x="0" y="26" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#F8FAFC">USJ Faculty Practicals, Scientific Rigor &amp; Experimental Safety</text>
+  </g>
+</svg>

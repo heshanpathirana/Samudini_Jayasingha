@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" width="600" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F7F9"/>
+      <stop offset="50%" stop-color="#E6F4F1"/>
+      <stop offset="100%" stop-color="#DCEEEA"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="#0D9488" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="720" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="720" rx="28" fill="url(#grid)"/>
+
+  <!-- Subtle Geometric & Botanical Elements -->
+  <g opacity="0.45">
+    <!-- Molecular Hexagons -->
+    <polygon points="500,80 540,103 540,149 500,172 460,149 460,103" fill="none" stroke="#0D9488" stroke-width="1.5"/>
+    <polygon points="500,172 540,195 540,241 500,264 460,241 460,195" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="500" cy="80" r="4" fill="#0D9488"/>
+    <circle cx="540" cy="103" r="3" fill="#10B981"/>
+    <circle cx="460" cy="149" r="3" fill="#0B1A30"/>
+
+    <!-- Botanical leaf arc on bottom left -->
+    <path d="M40 680 C 80 580, 120 540, 180 520 C 130 560, 90 620, 60 700 Z" fill="#0D9488" opacity="0.3"/>
+    <path d="M90 690 C 140 600, 190 560, 240 550 C 190 590, 150 640, 120 710 Z" fill="#10B981" opacity="0.25"/>
+  </g>
+
+  <!-- Center Decorative Frame -->
+  <circle cx="300" cy="270" r="160" fill="#FFFFFF" stroke="#0D9488" stroke-width="2" stroke-dasharray="6 6" opacity="0.4"/>
+  <circle cx="300" cy="270" r="145" fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- Stylized Academic Silhouette / Figure -->
+  <g transform="translate(150, 120)">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="48" fill="#0B1A30" opacity="0.85"/>
+    <!-- Gentle hair contour -->
+    <path d="M108 98 C 108 60, 192 60, 192 98 C 192 120, 175 145, 150 148 C 125 145, 108 120, 108 98 Z" fill="#071324"/>
+    <!-- Lab Coat / Collar -->
+    <path d="M90 220 C 90 160, 120 152, 150 152 C 180 152, 210 160, 210 220 L 235 290 L 65 290 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <!-- Stethoscope / Lapel -->
+    <path d="M132 154 L 140 220 L 150 240 L 160 220 L 168 154" fill="none" stroke="#0D9488" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="150" cy="242" r="5" fill="#10B981"/>
+  </g>
+
+  <!-- Camera / Swap indicator badge -->
+  <g transform="translate(300, 385)">
+    <rect x="-135" y="-18" width="270" height="36" rx="18" fill="#0B1A30" opacity="0.95"/>
+    <path d="M-105 -5 h6 l3 -5 h12 l3 5 h6 a3 3 0 0 1 3 3 v12 a3 3 0 0 1 -3 3 h-27 a3 3 0 0 1 -3 -3 v-12 a3 3 0 0 1 3 -3 Z" fill="none" stroke="#6EE7B7" stroke-width="1.8"/>
+    <circle cx="-91.5" cy="3" r="4" fill="none" stroke="#6EE7B7" stroke-width="1.8"/>
+    <text x="-65" y="5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" letter-spacing="0.5">REPLACE WITH PORTRAIT</text>
+  </g>
+
+  <!-- Editorial Info Card at Bottom -->
+  <g transform="translate(45, 465)">
+    <rect width="510" height="200" rx="20" fill="#FFFFFF" filter="drop-shadow(0 10px 25px rgba(11,26,48,0.08))"/>
+    <rect x="20" y="20" width="6" height="160" rx="3" fill="url(#accentGrad)"/>
+    
+    <text x="42" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="1.5">ACADEMIC PROFILE · USJ</text>
+    <text x="42" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0B1A30">[Her Full Name]</text>
+    <text x="42" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">Third-Year Undergraduate · University of Sri Jayewardenepura</text>
+    
+    <!-- Subject Pills -->
+    <g transform="translate(42, 140)">
+      <rect width="84" height="28" rx="14" fill="#ECFDF5"/>
+      <text x="42" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#065F46" text-anchor="middle">Zoology</text>
+
+      <rect x="92" width="108" height="28" rx="14" fill="#F0FDFA"/>
+      <text x="146" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0F766E" text-anchor="middle">Microbiology</text>
+
+      <rect x="208" width="94" height="28" rx="14" fill="#EFF6FF"/>
+      <text x="255" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#1E40AF" text-anchor="middle">Chemistry</text>
+
+      <rect x="310" width="140" height="28" rx="14" fill="#FEF3C7"/>
+      <text x="380" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#92400E" text-anchor="middle">CMCC Target 2028</text>
+    </g>
+  </g>
+</svg>

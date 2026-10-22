@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Metadata -->
+  <title data-bind="student.fullName">[HER FULL NAME] | Science Undergraduate &amp; Aspiring Pharmacist</title>
+  <meta name="title" content="[HER FULL NAME] | Science Undergraduate &amp; Aspiring Pharmacist">
+  <meta name="description"
+    content="Explore the academic background, laboratory learning, scientific interests, and pharmacy career goals of a science undergraduate at the University of Sri Jayewardenepura, Sri Lanka.">
+  <meta name="author" content="[HER FULL NAME]">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[HER FULL NAME] | Science Undergraduate &amp; Aspiring Pharmacist">
+  <meta property="og:description"
+    content="Portfolio of a third-year science undergraduate at University of Sri Jayewardenepura studying Zoology, Microbiology &amp; Chemistry with a planned pathway towards the 2028 CMCC External Pharmacist Examination.">
+  <meta property="og:image" content="assets/images/portrait-placeholder.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Crisp Modern Sans) & Newsreader (Editorial Serif Accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Skip to main content for keyboard accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Subtle Molecular Particle Background Canvas -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+
+      <!-- Monogram / Student Brand -->
+      <a href="#hero" class="brand-monogram" aria-label="Go to portfolio home section">
+        <div class="brand-icon" aria-hidden="true">
+          <!-- Stylized Microscope / Molecular Icon -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 18h8"></path>
+            <path d="M3 22h18"></path>
+            <path d="M14 22a7 7 0 1 0 0-14h-1"></path>
+            <path d="M9 14h2"></path>
+            <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"></path>
+            <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name" data-bind="student.fullName">[HER FULL NAME]</span>
+          <span class="brand-role">Science Undergraduate · USJ</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="primary-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav id="primary-nav" class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#lab-experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#pharmacy-journey" class="nav-link">Pharmacy Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="assets/docs/cv.pdf" class="btn btn-primary btn-sm" download="Curriculum_Vitae_USJ_Undergraduate.pdf"
+            aria-label="Download student CV in PDF format">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         1. HERO SECTION
+         ======================================================================= -->
+    <section id="hero" class="section hero-section" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left Editorial Column -->
+          <div class="hero-content reveal">
+
+            <div class="hero-tagline">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+              <span data-bind="student.hero.label">SCIENCE UNDERGRADUATE · ASPIRING PHARMACIST</span>
+            </div>
+
+            <h1 id="hero-heading" class="hero-title">
+              Exploring Science.
+              <span class="hero-title-accent">Building a Future in Pharmacy.</span>
+            </h1>
+
+            <p class="hero-paragraph" data-bind="student.hero.paragraph">
+              I am a third-year undergraduate at the University of Sri Jayewardenepura, studying Zoology, Microbiology,
+              and Chemistry. Through my academic studies and laboratory practicals, I am developing a strong scientific
+              foundation while working towards my long-term goal of becoming a pharmacist.
+            </p>
+
+            <div class="hero-meta-badges">
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal-600)"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                University of Sri Jayewardenepura
+              </span>
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal-600)"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+                Faculty of Applied Science
+              </span>
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-teal-600)"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                  </path>
+                </svg>
+                Zoology &bull; Microbiology &bull; Chemistry
+              </span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-teal">
+                <span data-bind="student.hero.primaryCtaText">Explore My Journey</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="assets/docs/cv.pdf" class="btn btn-secondary" download="Curriculum_Vitae_USJ_Undergraduate.pdf"
+                aria-label="Download student CV in PDF format">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span data-bind="student.hero.secondaryCtaText">Download My CV</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Portrait Area -->
+          <div class="hero-media animate-on-scroll delay-1 in-view">
+            <div class="hero-photo-card">
+              <div class="hero-photo-wrapper">
+                <img src="assets/images/samudini.jpeg" alt="Profile portrait placeholder for undergraduate researcher"
+                  class="hero-profile-img" id="hero-profile-img">
+              </div>
+              <!-- Floating Pill Badge -->
+              <div class="hero-floating-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+                <span><b>Samudini Jayasingha</b></span>
+              </div>
+            </div>
+            <div class="hero-target">
+              <div class="hero-target-card" role="region" aria-label="Examination pathway target">
+                <div class="target-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="target-info">
+                  <span class="target-label">University of Sri Jayewardenepura</span>
+                  <span class="target-value" data-bind="student.hero.badge">A Bachelor of Science (BSc) degree — Target
+                    2028</span>
+                </div>
+              </div>
+
+              <!-- CMCC Target 2028 Badge Card -->
+              <div class="hero-target-card" role="region" aria-label="Examination pathway target">
+                <div class="target-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="target-info">
+                  <span class="target-label">Ceylon Medical College Council (CMCC)</span>
+                  <span class="target-value" data-bind="student.hero.badge">External Pharmacist Examination — Target
+                    2028</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT ME SECTION
+         ======================================================================= -->
+    <section id="about" class="section section-alt" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">ABOUT ME</span>
+          <h2 id="about-heading" class="section-title">Curious About Science. Committed to Growth.</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Editorial Text Narrative -->
+          <div class="about-text reveal">
+            <p>
+              I am a science undergraduate at the University of Sri Jayewardenepura with an academic background spanning
+              Zoology, Microbiology, and Chemistry. My university studies have introduced me to scientific observation,
+              laboratory practicals, and analytical thinking. I am particularly interested in the relationship between
+              microbiology, chemistry, health, and pharmaceutical science.
+            </p>
+            <p>
+              I aim to continue developing my scientific knowledge and practical abilities through meaningful learning
+              experiences and suitable internship opportunities. My long-term ambition is to become a pharmacist, and I
+              am preparing towards my planned External Pharmacist Examination pathway for 2028.
+            </p>
+          </div>
+
+          <!-- Three Understated Highlights -->
+          <div class="about-highlights reveal">
+
+            <div class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Scientific Foundation</h4>
+                <p>Zoology, Microbiology, and Chemistry.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10 2v7.31L4.69 18.2a2 2 0 0 0 1.62 2.8h11.38a2 2 0 0 0 1.62-2.8L14 9.31V2"></path>
+                  <line x1="8.5" y1="2" x2="15.5" y2="2"></line>
+                  <path d="M14 9.3a6.5 6.5 0 0 1-4 0"></path>
+                </svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Practical Learning</h4>
+                <p>University laboratory practicals and academic projects.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m16 12-4-4-4 4"></path>
+                  <path d="M12 16V8"></path>
+                </svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Future Direction</h4>
+                <p>Pharmaceutical science and a career in pharmacy.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. EDUCATION SECTION
+         ======================================================================= -->
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-label">EDUCATION</span>
+          <h2 id="education-heading" class="section-title">My Academic Foundation</h2>
+          <p class="section-lead">A structured progression of university studies and biological sciences foundation.</p>
+        </div>
+
+        <div class="timeline reveal">
+
+          <!-- Item 1: University of Sri Jayewardenepura -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-institution">University of Sri Jayewardenepura, Sri Lanka</h3>
+                  <div class="timeline-role">Undergraduate Studies: Zoology, Microbiology, and Chemistry</div>
+                </div>
+                <span class="timeline-badge">Current Level: Third Year</span>
+              </div>
+
+              <div class="timeline-meta">
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Expected Graduation: 2028</span>
+                </span>
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Gangodawila, Nugegoda, Sri Lanka</span>
+                </span>
+              </div>
+
+              <p class="timeline-desc">
+                Engaging in comprehensive undergraduate coursework spanning biological and physical sciences. Curriculum
+                emphasizes systematic scientific investigation, analytical reasoning, and extensive faculty laboratory
+                practical sessions in microbiology, zoology, and chemistry.
+              </p>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Subject Combination : Zoology, Microbiology, and Chemistry</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Active participation in university laboratory practical sessions and scientific
+                    documentation</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <!-- Item 2: G.C.E. Advanced Level Examination -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-institution">Kegalu Balika Vidyalaya - Kegalle</h3>
+                  <div class="timeline-role">G.C.E. Advanced Level (Biological Science Stream)</div>
+                </div>
+                <span class="timeline-badge">Completed</span>
+              </div>
+
+              <div class="timeline-meta">
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>A/L Completion Year: 2022</span>
+                </span>
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                  </svg>
+                  <span>Results: B, C, C</span>
+                </span>
+              </div>
+
+              <p class="timeline-desc">
+                Completed secondary education with competitive national examination results in the Biological Science
+                stream, providing the foundational principles in biology and chemistry required for university
+                scientific study.
+              </p>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Built a strong foundational understanding in Biology, Chemistry, and Physics</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Admitted to the University of Sri Jayewardenepura</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-institution">Sri Sanghabodhi Central College - Nittambuwa</h3>
+                  <div class="timeline-role">G.C.E. Ordinary Level</div>
+                </div>
+                <span class="timeline-badge">Completed</span>
+              </div>
+
+              <div class="timeline-meta">
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>O/L Completion Year: 2019</span>
+                </span>
+                <span class="timeline-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                  </svg>
+                  <span>Results: 7 As and 2 Bs</span>
+                </span>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>7 'A' Grades: Science, Mathematics, Buddhism, Sinhala, History, Health & Physical Education,
+                    Business & Accounting Studies.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>2 'B' Grade: English, Sinhala Literature.
+                  </span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Demonstrated well-rounded academic excellence across sciences, mathematics, and
+                    humanities.</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. SKILLS & COMPETENCIES SECTION
+         ======================================================================= -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-label">SKILLS &amp; COMPETENCIES</span>
+          <h2 id="skills-heading" class="section-title">Skills Developed Through Learning</h2>
+          <p class="section-lead">Authentic academic and laboratory abilities built through consistent practical
+            participation.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+
+          <!-- Category 1: Laboratory & Scientific Skills -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 18h8"></path>
+                  <path d="M3 22h18"></path>
+                  <path d="M14 22a7 7 0 1 0-14 0"></path>
+                  <path d="M9 14h2"></path>
+                  <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"></path>
+                  <path d="M12 6V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Laboratory &amp; Scientific</h3>
+              </div>
+            </div>
+            <p class="skill-cat-desc">Practical benchwork competencies cultivated through university faculty sessions.
+            </p>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Microscope handling</span>
+                  <span class="badge badge-teal">Practical</span>
+                </div>
+                <div class="skill-item-detail">Brightfield optical microscope operation, slide alignment, and focus
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>University lab practicals</span>
+                  <span class="badge badge-teal">Practical</span>
+                </div>
+                <div class="skill-item-detail">Microbiology, zoology, and chemistry faculty practical sessions</div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Scientific observation</span>
+                  <span class="badge badge-teal">Observational</span>
+                </div>
+                <div class="skill-item-detail">Accurate specimen examination, morphological evaluation, and logging
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Laboratory safety awareness</span>
+                  <span class="badge badge-teal">Safety</span>
+                </div>
+                <div class="skill-item-detail">Good laboratory practice (GLP), PPE adherence, and hazard awareness</div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Recording experimental observations</span>
+                  <span class="badge badge-teal">Documentation</span>
+                </div>
+                <div class="skill-item-detail">Systematic record-keeping and data integrity in laboratory logbooks</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Digital Skills -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Digital Skills</h3>
+              </div>
+            </div>
+            <p class="skill-cat-desc">Software and numerical tools applied to scientific data organization.</p>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Microsoft Excel</span>
+                  <span class="badge badge-mint">Software</span>
+                </div>
+                <div class="skill-item-detail">Formulas, calculations, data tables, and tabular data entry</div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Basic data organization</span>
+                  <span class="badge badge-mint">Methods</span>
+                </div>
+                <div class="skill-item-detail">Structuring experimental findings and observation sets logically</div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Tables &amp; spreadsheet formatting</span>
+                  <span class="badge badge-mint">Reporting</span>
+                </div>
+                <div class="skill-item-detail">Clean tabular formatting for academic reports and lab assignments</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Academic Skills -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7Z">
+                  </path>
+                  <path d="M9 21h6"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Academic Skills</h3>
+              </div>
+            </div>
+            <p class="skill-cat-desc">Core cognitive and collaborative abilities developed through undergraduate life.
+            </p>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Scientific learning &amp; research awareness</span>
+                  <span class="badge badge-navy">Academic</span>
+                </div>
+                <div class="skill-item-detail">Engaging with academic literature and understanding the scientific method
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Analytical thinking</span>
+                  <span class="badge badge-navy">Cognitive</span>
+                </div>
+                <div class="skill-item-detail">Correlating observed experimental results with theoretical principles
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Attention to detail</span>
+                  <span class="badge badge-navy">Core</span>
+                </div>
+                <div class="skill-item-detail">Careful specimen inspection and precise measurement recordings</div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Time management</span>
+                  <span class="badge badge-navy">Organizational</span>
+                </div>
+                <div class="skill-item-detail">Balancing multi-discipline laboratory coursework and academic deadlines
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-item-name">
+                  <span>Teamwork in academic activities</span>
+                  <span class="badge badge-navy">Interpersonal</span>
+                </div>
+                <div class="skill-item-detail">Collaborative lab benchwork, peer discussion, and group practicals</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. UNIVERSITY LABORATORY EXPERIENCE
+         ======================================================================= -->
+    <section id="lab-experience" class="section" aria-labelledby="lab-experience-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">PRACTICAL EXPERIENCE</span>
+          <h2 id="lab-experience-heading" class="section-title">Learning Through Laboratory Practice</h2>
+          <p class="section-lead">All practical experience represents undergraduate academic training and laboratory
+            sessions conducted at the University of Sri Jayewardenepura.</p>
+        </div>
+
+        <!-- Academic Context Disclaimer -->
+        <div class="lab-disclaimer-box" role="note">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <div>
+            <strong>Academic Foundation:</strong> Experience documented below highlights genuine university laboratory
+            coursework and practical sessions, not commercial employment. Descriptions can be updated with specific
+            experiments completed.
+          </div>
+        </div>
+
+        <div class="lab-blocks-grid reveal">
+
+          <!-- Feature Block 1: Microscopy and Scientific Observation -->
+          <div class="lab-block-card">
+            <div class="lab-block-media">
+              <img src="assets/images/microscopy.svg"
+                alt="Compound optical microscope illustration and cellular observation slide" class="lab-block-img">
+            </div>
+            <div class="lab-block-body">
+              <span class="badge badge-teal lab-block-badge">Microscopy Practice</span>
+              <h3 class="lab-block-title">Microscopy and Scientific Observation</h3>
+              <p class="lab-block-desc">
+                Developing familiarity with microscope handling and observing biological specimens through university
+                practical activities.
+              </p>
+              <ul class="lab-block-points">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Focusing under various magnifications (low and high power)</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Observation and temporary mount slide preparation</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Detailed morphological sketches and specimen documentation</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Feature Block 2: Microbiology and Biological Science -->
+          <div class="lab-block-card">
+            <div class="lab-block-media">
+              <img src="assets/images/microbiology.svg" alt="Microbiology agar plate culture and streak isolation"
+                class="lab-block-img">
+            </div>
+            <div class="lab-block-body">
+              <span class="badge badge-mint lab-block-badge">Microbiology Practice</span>
+              <h3 class="lab-block-title">Microbiology and Biological Science</h3>
+              <p class="lab-block-desc">
+                Building foundational knowledge of microorganisms and biological concepts through academic study and
+                relevant practical sessions.
+              </p>
+              <ul class="lab-block-points">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Awareness of aseptic techniques and sterile bench procedures</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Understanding culture media, bacterial colonial morphology, and growth</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Relating microbiology fundamentals to health and medicine</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Feature Block 3: Chemistry and Laboratory Learning -->
+          <div class="lab-block-card">
+            <div class="lab-block-media">
+              <img src="assets/images/chemistry.svg"
+                alt="Laboratory glassware, titration and chemical solution preparation" class="lab-block-img">
+            </div>
+            <div class="lab-block-body">
+              <span class="badge badge-navy lab-block-badge">Chemistry Practice</span>
+              <h3 class="lab-block-title">Chemistry and Laboratory Learning</h3>
+              <p class="lab-block-desc">
+                Strengthening an understanding of chemical principles through coursework and university laboratory
+                activities.
+              </p>
+              <ul class="lab-block-points">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Volumetric measurements, glassware handling, and solution preparation</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Stoichiometric calculations and basic analytical principles</span>
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Chemical handling discipline required for pharmaceutical science</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. SELECTED ACADEMIC PROJECTS
+         ======================================================================= -->
+    <section id="projects" class="section section-alt" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">SELECTED WORK</span>
+          <h2 id="projects-heading" class="section-title">Learning, Investigating, Improving</h2>
+          <p class="section-lead">Genuine university coursework placeholders. These cards can be customized with
+            specific practical assignments or reports completed during her studies.</p>
+        </div>
+
+        <div class="projects-grid reveal">
+
+          <!-- Project 1: Microbiology Practical Project -->
+          <div class="project-card">
+            <div class="project-meta-top">
+              <span class="project-field-pill">Microbiology</span>
+              <span class="badge badge-placeholder">Placeholder</span>
+            </div>
+            <h3 class="project-title">Microbiology Practical Project</h3>
+
+            <div class="project-summary-box">
+              <div class="project-summary-label">Summary</div>
+              <p class="project-summary-text">[Add the actual practical or project description.]</p>
+            </div>
+
+            <div class="project-skills-box">
+              <div class="project-skills-label">Skills Developed</div>
+              <p class="project-skills-text">[Add confirmed skills.]</p>
+            </div>
+          </div>
+
+          <!-- Project 2: Chemistry Laboratory Assignment -->
+          <div class="project-card">
+            <div class="project-meta-top">
+              <span class="project-field-pill">Chemistry</span>
+              <span class="badge badge-placeholder">Placeholder</span>
+            </div>
+            <h3 class="project-title">Chemistry Laboratory Assignment</h3>
+
+            <div class="project-summary-box">
+              <div class="project-summary-label">Summary</div>
+              <p class="project-summary-text">[Add the actual assignment or experiment.]</p>
+            </div>
+
+            <div class="project-skills-box">
+              <div class="project-skills-label">Skills Developed</div>
+              <p class="project-skills-text">[Add confirmed skills.]</p>
+            </div>
+          </div>
+
+          <!-- Project 3: Zoology Academic Project -->
+          <div class="project-card">
+            <div class="project-meta-top">
+              <span class="project-field-pill">Zoology</span>
+              <span class="badge badge-placeholder">Placeholder</span>
+            </div>
+            <h3 class="project-title">Zoology Academic Project</h3>
+
+            <div class="project-summary-box">
+              <div class="project-summary-label">Summary</div>
+              <p class="project-summary-text">[Add the actual project description.]</p>
+            </div>
+
+            <div class="project-skills-box">
+              <div class="project-skills-label">Skills Developed</div>
+              <p class="project-skills-text">[Add confirmed skills.]</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. PHARMACY JOURNEY SECTION (KEY VISUAL HIGHLIGHT)
+         ======================================================================= -->
+    <section id="pharmacy-journey" class="section section-navy" aria-labelledby="pharmacy-heading">
+      <div class="container pharmacy-container">
+
+        <div class="section-header">
+          <span class="section-label">MY FUTURE IN PHARMACY</span>
+          <h2 id="pharmacy-heading" class="section-title">A Long-Term Goal in Pharmaceutical Science</h2>
+        </div>
+
+        <!-- Hero Card in Navy/Teal Theme -->
+        <div class="pharmacy-hero-banner reveal">
+
+          <div class="pharmacy-hero-content">
+            <p class="pharmacy-lead">
+              “My interest in pharmacy grows from my scientific studies and my desire to continue learning about
+              medicines, chemistry, microbiology, and health. I am following the relevant pathway towards the External
+              Pharmacist Examination through the Ceylon Medical College Council (CMCC), with 2028 as my target
+              examination year.”
+            </p>
+
+            <!-- Details Grid -->
+            <div class="pharmacy-details-grid">
+              <div class="pharmacy-detail-item highlight">
+                <div class="detail-label">Career Ambition</div>
+                <div class="detail-value">Pharmacist</div>
+              </div>
+
+              <div class="pharmacy-detail-item">
+                <div class="detail-label">Pathway</div>
+                <div class="detail-value">External Pharmacist Examination</div>
+              </div>
+
+              <div class="pharmacy-detail-item">
+                <div class="detail-label">Institution</div>
+                <div class="detail-value">Ceylon Medical College Council (CMCC)</div>
+              </div>
+
+              <div class="pharmacy-detail-item highlight">
+                <div class="detail-label">Target Year</div>
+                <div class="detail-value">2028</div>
+              </div>
+
+              <div class="pharmacy-detail-item" style="grid-column: 1 / -1;">
+                <div class="detail-label">Current Stage</div>
+                <div class="detail-value" style="font-size: 0.95rem; font-weight: 500;">
+                  Science undergraduate preparing towards a future career in pharmacy
+                </div>
+              </div>
+            </div>
+
+            <!-- CMCC Official Link Button -->
+            <div>
+              <a href="https://cmcc.lk/external-pharmacist-course/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-mint">
+                <span>Visit Official CMCC Website</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- CMCC Badge & Illustration Column -->
+          <div class="cmcc-badge-frame">
+            <img src="assets/images/cmcc-badge.svg"
+              alt="Ceylon Medical College Council External Pharmacist Pathway Badge" class="cmcc-badge-img">
+            <span class="cmcc-badge-caption">Official Examination Pathway · Target 2028</span>
+          </div>
+
+        </div>
+
+        <!-- Split Row: Areas of Interest & Future Goals -->
+        <div class="pharmacy-split-row reveal">
+
+          <!-- Column 1: Areas of Interest -->
+          <div class="pharmacy-column">
+            <h3 class="pharmacy-column-title">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+              <span>Areas of Interest</span>
+            </h3>
+
+            <div class="interest-list">
+              <div class="interest-item">
+                <div class="interest-item-title">Pharmaceutical Sciences</div>
+                <p class="interest-item-desc">Formulation fundamentals, pharmacokinetics, and the biochemical basis of
+                  therapeutics.</p>
+              </div>
+
+              <div class="interest-item">
+                <div class="interest-item-title">Microbiology and Health</div>
+                <p class="interest-item-desc">Pathogen biology, antimicrobials, infection control, and sterile
+                  preparation awareness.</p>
+              </div>
+
+              <div class="interest-item">
+                <div class="interest-item-title">Chemistry and Medicines</div>
+                <p class="interest-item-desc">Molecular structures, drug properties, chemical stability, and organic
+                  synthesis principles.</p>
+              </div>
+
+              <div class="interest-item">
+                <div class="interest-item-title">Laboratory Science</div>
+                <p class="interest-item-desc">Analytical precision, quality assurance protocols, and systematic
+                  experimental testing.</p>
+              </div>
+
+              <div class="interest-item">
+                <div class="interest-item-title">Responsible Medicine Use</div>
+                <p class="interest-item-desc">Patient safety, rational prescribing awareness, and ethical pharmaceutical
+                  standards.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Career Development Goals -->
+          <div class="pharmacy-column">
+            <h3 class="pharmacy-column-title">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+              <span>Career Development Goals</span>
+            </h3>
+
+            <ul class="goals-list">
+              <li class="goal-item">
+                <span class="goal-bullet" aria-hidden="true">1</span>
+                <span>Continue developing relevant scientific knowledge across biology, chemistry, and health
+                  sciences.</span>
+              </li>
+
+              <li class="goal-item">
+                <span class="goal-bullet" aria-hidden="true">2</span>
+                <span>Prepare diligently towards the planned 2028 External Pharmacist Examination pathway.</span>
+              </li>
+
+              <li class="goal-item">
+                <span class="goal-bullet" aria-hidden="true">3</span>
+                <span>Strengthen analytical and practical learning skills through continuous university laboratory
+                  practice.</span>
+              </li>
+
+              <li class="goal-item">
+                <span class="goal-bullet" aria-hidden="true">4</span>
+                <span>Seek appropriate internship and practical learning opportunities in laboratory and scientific
+                  environments.</span>
+              </li>
+
+              <li class="goal-item">
+                <span class="goal-bullet" aria-hidden="true">5</span>
+                <span>Build a responsible, patient-focused professional mindset grounded in scientific accuracy and
+                  ethics.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. INTERNSHIP OPPORTUNITIES SECTION
+         ======================================================================= -->
+    <section id="internships" class="section section-mint" aria-labelledby="internships-heading">
+      <div class="container">
+
+        <div class="internships-box reveal">
+          <div class="section-header" style="margin-bottom: 24px;">
+            <span class="section-label">OPPORTUNITIES</span>
+            <h2 id="internships-heading" class="section-title">Open to Learning and Contributing</h2>
+          </div>
+
+          <p class="internships-lead">
+            “I am interested in suitable internship and practical learning opportunities that allow me to develop my
+            scientific knowledge, laboratory skills, and understanding of professional working environments.”
+          </p>
+
+          <div class="internship-areas-grid">
+
+            <div class="internship-area-card">
+              <div class="internship-area-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"></path>
+                </svg>
+              </div>
+              <div class="internship-area-info">
+                <h4>Microbiology Laboratories</h4>
+                <p>Culture observation, media preparation support, and practical microbiological assistance.</p>
+              </div>
+            </div>
+
+            <div class="internship-area-card">
+              <div class="internship-area-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div class="internship-area-info">
+                <h4>Scientific and Research Support</h4>
+                <p>Assisting academic investigations, scientific observation logs, and research data structuring.</p>
+              </div>
+            </div>
+
+            <div class="internship-area-card">
+              <div class="internship-area-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 2v7.31L4.69 18.2a2 2 0 0 0 1.62 2.8h11.38a2 2 0 0 0 1.62-2.8L14 9.31V2"></path>
+                  <line x1="8.5" y1="2" x2="15.5" y2="2"></line>
+                </svg>
+              </div>
+              <div class="internship-area-info">
+                <h4>Laboratory Assistant Internships</h4>
+                <p>Benchwork support, glassware hygiene, reagent preparation, and laboratory organization.</p>
+              </div>
+            </div>
+
+            <div class="internship-area-card">
+              <div class="internship-area-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="internship-area-info">
+                <h4>Pharmaceutical &amp; Healthcare Environments</h4>
+                <p>Support roles and observational learning opportunities appropriate to undergraduate qualification and
+                  eligibility.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="internship-cta-bar">
+            <div>
+              <p style="margin-bottom: 0; font-size: 0.95rem; color: var(--color-slate-600);">
+                Available for internships, laboratory support, or relevant scientific placements.
+              </p>
+            </div>
+            <a href="#contact" class="btn btn-teal">
+              <span>Contact Me About Opportunities</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. SCIENTIFIC IMAGE GALLERY
+         ======================================================================= -->
+    <section id="gallery" class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">VISUAL PERSPECTIVE</span>
+          <h2 id="gallery-heading" class="section-title">Laboratory, Science &amp; Academic Exploration</h2>
+          <p class="section-lead">Curated scientific illustrations and laboratory motifs representing university
+            coursework disciplines.</p>
+        </div>
+
+        <div id="gallery-grid" class="gallery-grid reveal">
+          <!-- Dynamically populated or rendered via JS from window.PORTFOLIO_DATA.gallery.items -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         10. CV DOWNLOAD SECTION
+         ======================================================================= -->
+    <section id="cv" class="section section-alt" aria-labelledby="cv-heading">
+      <div class="container">
+
+        <div class="cv-download-card reveal">
+
+          <div class="cv-download-info">
+            <span class="section-label">CURRICULUM VITAE</span>
+            <h2 id="cv-heading" class="cv-download-title">A Closer Look at My Background</h2>
+            <p class="cv-download-text">
+              Explore my academic background, scientific skills, and professional interests in my CV.
+            </p>
+          </div>
+
+          <div class="cv-download-actions">
+            <a href="assets/docs/cv.pdf" class="btn btn-primary" download="Curriculum_Vitae_USJ_Undergraduate.pdf"
+              id="btn-download-cv">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV (PDF)</span>
+            </a>
+            <span class="cv-helper-note">Format: PDF (Verified Academic Resume)</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         11. CONTACT SECTION
+         ======================================================================= -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 id="contact-heading" class="section-title">Let's Connect</h2>
+          <p class="section-lead">
+            I welcome opportunities to learn, collaborate, and develop my experience in scientific and laboratory
+            environments.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Details Cards -->
+          <div class="contact-info-col reveal">
+            <h3 style="font-size: 1.3rem; margin-bottom: 12px; color: var(--color-navy-900);">Direct Contact Channels
+            </h3>
+            <p style="font-size: 0.95rem; color: var(--color-slate-600); margin-bottom: 24px;">
+              Feel free to reach out regarding laboratory internships, academic research support, or science
+              opportunities.
+            </p>
+
+            <div class="contact-channels-list">
+
+              <!-- Email Card -->
+              <div class="contact-card">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-card-info">
+                  <span class="contact-type-label">Email Address</span>
+                  <a href="mailto:example@student.sjp.ac.lk" class="contact-value-link"
+                    data-bind="student.email">samudinijayasingha2002@gmail.com</a>
+                  <span class="contact-card-note">Primary channel for inquiries</span>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm btn-copy-info" data-copy="[HER EMAIL]"
+                  aria-label="Copy email address to clipboard">Copy</button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="contact-card">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-card-info">
+                  <span class="contact-type-label">Phone Number</span>
+                  <a href="tel:+94000000000" class="contact-value-link" data-bind="student.phone">+94703962957</a>
+                  <span class="contact-card-note">Available during standard hours</span>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-card-info">
+                  <span class="contact-type-label">Location</span>
+                  <span class="contact-value-link" data-bind="student.location">Nugegoda, Sri Lanka</span>
+                  <span class="contact-card-note">University of Sri Jayewardenepura region</span>
+                </div>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="contact-card">
+                <div class="contact-icon-wrap" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-card-info">
+                  <span class="contact-type-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    class="contact-value-link"
+                    data-bind="student.linkedin">https://linkedin.com/in/samudini-jayasingha-193262408</a>
+                  <span class="contact-card-note">Academic &amp; professional updates</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Functional Client-side Contact Form -->
+          <div class="contact-form-wrapper reveal">
+            <h3 class="form-title">Send a Message</h3>
+
+            <form id="contact-form" novalidate>
+
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Your Name <span style="color:#ef4444;">*</span></label>
+                <input type="text" id="sender-name" name="name" class="form-control"
+                  placeholder="e.g. Dr. Silva / Hiring Manager" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Your Email <span style="color:#ef4444;">*</span></label>
+                <input type="email" id="sender-email" name="email" class="form-control"
+                  placeholder="name@institution.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Opportunity / Subject</label>
+                <input type="text" id="sender-subject" name="subject" class="form-control"
+                  placeholder="Microbiology Internship / Laboratory Support Opportunity"
+                  value="Inquiry regarding Scientific / Internship Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Message <span style="color:#ef4444;">*</span></label>
+                <textarea id="sender-message" name="message" class="form-control" rows="5"
+                  placeholder="Please outline the internship or laboratory placement opportunity..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Prepare &amp; Send Inquiry</span>
+              </button>
+
+              <!-- Feedback box for submission status -->
+              <div id="form-feedback" class="form-feedback" role="alert"></div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       12. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <!-- Left: Monogram and student line -->
+        <div class="footer-brand">
+          <a href="#hero" class="footer-monogram">
+            <div class="brand-icon" aria-hidden="true">
+          <!-- Stylized Microscope / Molecular Icon -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 18h8"></path>
+            <path d="M3 22h18"></path>
+            <path d="M14 22a7 7 0 1 0 0-14h-1"></path>
+            <path d="M9 14h2"></path>
+            <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"></path>
+            <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"></path>
+          </svg>
+        </div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #ffffff;" data-bind="student.fullName">[HER FULL NAME]</span>
+              <span class="brand-role" style="color: var(--color-mint-300);" data-bind="student.tagline">SCIENCE
+                UNDERGRADUATE · ASPIRING PHARMACIST</span>
+            </div>
+          </a>
+          <p class="footer-affiliation" data-bind="footer.affiliation">
+            University of Sri Jayewardenepura, Sri Lanka
+          </p>
+        </div>
+
+        <!-- Right: Quick Navigation -->
+        <div class="footer-links-group">
+
+          <div>
+            <div class="footer-col-title">Portfolio Sections</div>
+            <ul class="footer-nav-list">
+              <li><a href="#hero" class="footer-nav-link">Home</a></li>
+              <li><a href="#about" class="footer-nav-link">About Me</a></li>
+              <li><a href="#education" class="footer-nav-link">Education</a></li>
+              <li><a href="#skills" class="footer-nav-link">Skills</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Scientific Pathway</div>
+            <ul class="footer-nav-list">
+              <li><a href="#lab-experience" class="footer-nav-link">Practical Experience</a></li>
+              <li><a href="#projects" class="footer-nav-link">Academic Projects</a></li>
+              <li><a href="#pharmacy-journey" class="footer-nav-link">Pharmacy Journey (2028)</a></li>
+              <li><a href="#internships" class="footer-nav-link">Internship Opportunities</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Connect &amp; Documents</div>
+            <ul class="footer-nav-list">
+              <li><a href="assets/docs/cv.pdf" class="footer-nav-link"
+                  download="Curriculum_Vitae_USJ_Undergraduate.pdf">Download CV (PDF)</a></li>
+              <li><a href="https://cmcc.lk/external-pharmacist-course/" target="_blank" rel="noopener noreferrer"
+                  class="footer-nav-link">CMCC Examination Pathway</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-nav-link"
+                  data-bind="student.linkedin">LinkedIn Profile</a></li>
+              <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year">2026</span> <span data-bind="student.fullName">[HER FULL NAME]</span>. All
+          rights reserved.
+        </div>
+        <div>
+          Designed as a personal academic and professional portfolio.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/canvas-particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
